@@ -1,0 +1,19 @@
+---
+galaxy_info:
+  author: Philipp Waller
+  namespace: wallernetwork
+  role_name: banner
+  description: Manages your Linux banner files.
+  license: MIT
+  company: none
+  min_ansible_version: "2.10"
+
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+
+dependencies: []

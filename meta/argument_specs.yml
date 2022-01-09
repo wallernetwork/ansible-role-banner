@@ -1,0 +1,16 @@
+---
+argument_specs:
+  main:
+    short_description: "Manages your Linux banner files"
+    description: >
+      Manage common Linux banners files like motd and issue.
+    author: Philipp Waller
+    options:
+      banner_issue:
+        type: "str"
+        default: ""
+        description: "Desired content of the issue banner file"
+      banner_motd:
+        type: "str"
+        default: ""
+        description: "Desired content of the motd banner file"

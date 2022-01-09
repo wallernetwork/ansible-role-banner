@@ -1,0 +1,15 @@
+- name: "create motd banner"
+  template:
+    src: templates/motd.j2
+    dest: /etc/motd
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: "create issue banner"
+  template:
+    src: templates/issue.j2
+    dest: /etc/issue
+    owner: root
+    group: root
+    mode: '0644'
